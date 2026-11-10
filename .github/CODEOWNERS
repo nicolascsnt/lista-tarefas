@@ -1,12 +1,12 @@
 # Revisores automáticos por área (PGC 2 e 5.2).
 #
-# O par de revisão é chamado em todo PR.
-# Mudanças em pipelines e dependências são de maior risco:
-# o Desenvolvedor Líder (dono do repositório) também é chamado.
+# O par de revisão (@cavaloimortal) é chamado em todo PR.
+# Mudanças em pipelines, documentação e dependências são de maior risco:
+# o Desenvolvedor Líder (@nicolascsnt) também é chamado.
 # Vale a ÚLTIMA linha que casar com o arquivo.
 
-*                    @nicolascsnt
-/.github/            @nicolascsnt
-/docs/               @nicolascsnt
-package.json         @nicolascsnt
-package-lock.json    @nicolascsnt
+*                    @cavaloimortal
+/.github/            @nicolascsnt @cavaloimortal
+/docs/               @nicolascsnt @cavaloimortal
+package.json         @nicolascsnt @cavaloimortal
+package-lock.json    @nicolascsnt @cavaloimortal
